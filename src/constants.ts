@@ -23,6 +23,32 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '15 décembre 2025 - Pulls de Noël',
+	puzzle_date: new Date('2025-12-15'),
+    groups: [
+        {
+            category: 'Baguettes',
+            items: ['Flûte', 'Ficelle', 'tradition', 'moulée'],
+            difficulty: 1,
+        },
+        {
+            category: 'Parties de machine à laver',
+            items: ['Tambour', 'filtre', 'courroie', 'hublot'],
+            difficulty: 2,
+        },
+        {
+            category: '_ droit',
+            items: ['Piano', 'bras', 'angle', 'passe'],
+            difficulty: 3,
+        },
+        {
+            category: 'Termine par une matière première',
+            items: ['Hautbois', 'Saint-Pierre', 'Cimeterre', 'Passable'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '8 décembre 2025 - Raclette ou rien',
 	puzzle_date: new Date('2025-12-08'),
     groups: [
@@ -42,7 +68,7 @@ export const all_puzzles : PuzzleImport[] = [
             difficulty: 3,
         },
         {
-            category: 'Rouge',
+            category: '_ rouge',
             items: ['Feu', 'Voir', 'alerte', 'nez'],
             difficulty: 4,
         }
