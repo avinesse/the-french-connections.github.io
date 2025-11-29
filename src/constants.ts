@@ -23,6 +23,32 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '22 décembre 2025 - Boîtes',
+	puzzle_date: new Date('2025-12-22'),
+    groups: [
+        {
+            category: 'Sur un plateau d\'échecs',
+            items: ['Tours', 'Pions', 'Reine', 'Cases'],
+            difficulty: 1,
+        },
+        {
+            category: 'Attributs du Père Noël',
+            items: ['Rennes', 'barbe', 'bottes', 'bonnet'],
+            difficulty: 2,
+        },
+        {
+            category: 'Jambes, en argot',
+            items: ['Cannes', 'Quilles', 'Pattes', 'Guiboles'],
+            difficulty: 3,
+        },
+        {
+            category: 'Prendre les _',
+            items: ['Paris', 'Devants', 'Escaliers', 'Gens pour des cons'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '15 décembre 2025 - Pulls de Noël',
 	puzzle_date: new Date('2025-12-15'),
     groups: [
