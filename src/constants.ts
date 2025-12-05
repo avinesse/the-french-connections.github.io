@@ -23,6 +23,32 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '29 décembre 2025 - A bientôt',
+	puzzle_date: new Date('2025-12-29'),
+    groups: [
+        {
+            category: 'Parties d\'appartement',
+            items: ['Entrée', 'Balcon', 'Cuisine', 'Couloir'],
+            difficulty: 1,
+        },
+        {
+            category: 'Sans relief',
+            items: ['Plat', 'Uni', 'Banal', 'Terne'],
+            difficulty: 2,
+        },
+        {
+            category: 'Pour boire en ville',
+            items: ['Café', 'Salon de thé', 'Bar', 'Bistrot'],
+            difficulty: 3,
+        },
+        {
+            category: 'On peut en priver un enfant',
+            items: ['Dessert', 'Téléphone', 'Sortie', 'Argent de poche'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '22 décembre 2025 - Boîtes',
 	puzzle_date: new Date('2025-12-22'),
     groups: [
