@@ -23,6 +23,32 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '05 janvier 2026 - A bientôt',
+	puzzle_date: new Date('2026-01-05'),
+    groups: [
+        {
+            category: 'Affliction',
+            items: ['Tristesse', 'Chagrin', 'Désespoir', 'Peine'],
+            difficulty: 1,
+        },
+        {
+            category: 'Genre musical',
+            items: ['Blues', 'Soul', 'Jazz', 'Rock'],
+            difficulty: 2,
+        },
+        {
+            category: 'Premier mot de radios françaises',
+            items: ['Nostalgie', 'Chérie', 'Europe', 'Rire'],
+            difficulty: 3,
+        },
+        {
+            category: 'ça vole',
+            items: ['Bourdon', 'Chouette', 'Avion', 'Cambrioleur'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '29 décembre 2025 - A bientôt',
 	puzzle_date: new Date('2025-12-29'),
     groups: [
