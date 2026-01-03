@@ -23,7 +23,33 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
-    puzzle_name: '05 janvier 2026 - A bientôt',
+    puzzle_name: '12 janvier 2026 - Hypersensibles',
+	puzzle_date: new Date('2026-01-12'),
+    groups: [
+        {
+            category: 'Chez le coiffeur',
+            items: ['Raie', 'Mèche', 'Tresse', 'Coupe'],
+            difficulty: 1,
+        },
+        {
+            category: 'Emplacement',
+            items: ['Lieu', 'Endroit', 'Place', 'Secteur'],
+            difficulty: 2,
+        },
+        {
+            category: 'Unités de pression',
+            items: ['Bar', 'Pascal', 'Atmosphère', 'Pièze'],
+            difficulty: 3,
+        },
+        {
+            category: 'Homophones de notes de musique',
+            items: ['Mie', 'Sole', 'Dos', 'Scie'],
+            difficulty: 4,
+        }
+    ]
+},
+{
+    puzzle_name: '05 janvier 2026 - La quenouille',
 	puzzle_date: new Date('2026-01-05'),
     groups: [
         {
