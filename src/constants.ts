@@ -21,7 +21,34 @@ import { PuzzleImport } from './App';
     � - &ugrave; \u00F9
 */
 
+
 export const all_puzzles : PuzzleImport[] = [
+{
+    puzzle_name: '19 janvier 2026 - Pop Corn',
+	puzzle_date: new Date('2026-01-19'),
+    groups: [
+        {
+            category: 'Torgnole',
+            items: ['Tarte', 'Châtaigne', 'Claque', 'Gnon'],
+            difficulty: 1,
+        },
+        {
+            category: 'Ingrédients de la béchamel',
+            items: ['Beurre', 'Farine', 'Lait', 'Muscade'],
+            difficulty: 2,
+        },
+        {
+            category: 'Farines',
+            items: ['Blé', 'Maïs', 'Riz', 'Froment'],
+            difficulty: 3,
+        },
+        {
+            category: 'Papa _',
+            items: ['Gâteau', 'Noël', 'Poule', 'Doc'],
+            difficulty: 4,
+        }
+    ]
+},
 {
     puzzle_name: '12 janvier 2026 - Hypersensibles',
 	puzzle_date: new Date('2026-01-12'),
