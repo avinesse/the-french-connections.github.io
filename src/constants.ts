@@ -24,6 +24,32 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '26 janvier 2026 - Community Manager',
+	puzzle_date: new Date('2026-01-26'),
+    groups: [
+        {
+            category: 'Unités de temps',
+            items: ['Jour', 'Mois', 'Semaine', 'Année'],
+            difficulty: 1,
+        },
+        {
+            category: 'Mots empruntés à l\'anglais',
+            items: ['Weekend', 'Nuggets', 'Body', 'Master'],
+            difficulty: 2,
+        },
+        {
+            category: 'Ce que Me peut vouloir dire',
+            items: ['Mercredi', 'Maître', 'Moi', 'Méthyle'],
+            difficulty: 3,
+        },
+        {
+            category: '_ gras',
+            items: ['Mardi', 'Crayon', 'Foie', 'Corps'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '19 janvier 2026 - Pop Corn',
 	puzzle_date: new Date('2026-01-19'),
     groups: [
