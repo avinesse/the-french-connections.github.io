@@ -24,6 +24,58 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '9 février 2026 - Légumineuses',
+	puzzle_date: new Date('2026-02-09'),
+    groups: [
+        {
+            category: 'Conforte',
+            items: ['épaule', 'Soutient', 'encourage', 'aide'],
+            difficulty: 1,
+        },
+        {
+            category: 'Accessoires de fixation',
+            items: ['Cheville', 'Clou', 'Attache', 'Punaise'],
+            difficulty: 2,
+        },
+        {
+            category: 'Coup de _',
+            items: ['Main', 'Poing', 'Maître', 'Chance'],
+            difficulty: 3,
+        },
+        {
+            category: 'Les Beatles avec une lettre en moins',
+            items: ['Jon', 'Pau', 'Gorge', 'Ring'],
+            difficulty: 4,
+        }
+    ]
+},
+{
+    puzzle_name: '2 février 2026 - Zone humide',
+	puzzle_date: new Date('2026-02-02'),
+    groups: [
+        {
+            category: 'Couvre-chefs',
+            items: ['Chapeau', 'Canotier', 'Calot', 'Bob'],
+            difficulty: 1,
+        },
+        {
+            category: 'Alphabet radio',
+            items: ['Bravo', 'Delta', 'Kilo', 'Mike'],
+            difficulty: 2,
+        },
+        {
+            category: 'Elements du tableau périodique',
+            items: ['Nickel', 'Plomb', 'Or', 'Néon'],
+            difficulty: 3,
+        },
+        {
+            category: 'Peut apparaître sur le bulletin',
+            items: ['Félicitations', 'Moyenne', 'Absences', 'Notes'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '26 janvier 2026 - Community Manager',
 	puzzle_date: new Date('2026-01-26'),
     groups: [
