@@ -24,6 +24,32 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '16 février 2026 - Pangolin et baleine',
+	puzzle_date: new Date('2026-02-16'),
+    groups: [
+        {
+            category: 'Détecte à l\'odeur',
+            items: ['Sent', 'Renifle', 'Flaire', 'Hume'],
+            difficulty: 1,
+        },
+        {
+            category: 'Fluides corporels',
+            items: ['Sang', 'Larme', 'Morve', 'Salive'],
+            difficulty: 2,
+        },
+        {
+            category: 'Sur une copie sans erreur',
+            items: ['100', 'Sans-faute', 'Parfait', 'A+'],
+            difficulty: 3,
+        },
+        {
+            category: '_ coeur',
+            items: ['Sans', 'Bon', 'Joli', 'Crève'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '9 février 2026 - Légumineuses',
 	puzzle_date: new Date('2026-02-09'),
     groups: [
