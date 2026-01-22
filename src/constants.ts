@@ -24,6 +24,32 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '23 février 2026 - Scout toujours',
+	puzzle_date: new Date('2026-02-23'),
+    groups: [
+        {
+            category: 'Primordial',
+            items: ['Majeur', 'Capital', 'Important', 'Notable'],
+            difficulty: 1,
+        },
+        {
+            category: 'Annexes de documentaire',
+            items: ['Index', 'Glossaire', 'Sommaire', 'Bibliographie'],
+            difficulty: 2,
+        },
+        {
+            category: 'A des anneaux',
+            items: ['Annulaire', 'Drapeau des JO', 'Sonic', 'Saturne'],
+            difficulty: 3,
+        },
+        {
+            category: 'Tom',
+            items: ['Pouce', 'Sawyer', 'Tom', 'Major'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '16 février 2026 - Pangolin et baleine',
 	puzzle_date: new Date('2026-02-16'),
     groups: [
