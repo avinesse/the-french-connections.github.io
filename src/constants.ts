@@ -24,6 +24,32 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '2 mars 2026 - Livres',
+	puzzle_date: new Date('2026-03-02'),
+    groups: [
+        {
+            category: 'Sa majesté',
+            items: ['Roi', 'Monarque', 'Souverain', 'Altesse'],
+            difficulty: 1,
+        },
+        {
+            category: 'Excelle',
+            items: ['As', 'Champion', 'Chef', 'Virtuose'],
+            difficulty: 2,
+        },
+        {
+            category: 'Interjections',
+            items: ['Dame', 'Parbleu', 'Seigneur', 'Oh la la'],
+            difficulty: 3,
+        },
+        {
+            category: '_ de pied',
+            items: ['Valet', 'Coup', 'Doigt', 'Plante'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '23 février 2026 - Scout toujours',
 	puzzle_date: new Date('2026-02-23'),
     groups: [
