@@ -24,6 +24,58 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '16 mars 2026 - Ti\'punch',
+	puzzle_date: new Date('2026-03-16'),
+    groups: [
+        {
+            category: 'Camarade',
+            items: ['Ami', 'Copain', 'Partenaire', 'Compagnon'],
+            difficulty: 1,
+        },
+        {
+            category: 'Satellites de planètes',
+            items: ['Lune', 'Europe', 'Titan', 'Ariel'],
+            difficulty: 2,
+        },
+        {
+            category: 'Personnages de la commedia dell\'arte',
+            items: ['Pierrot', 'Arlequin', 'Colombine', 'Polichinelle'],
+            difficulty: 3,
+        },
+        {
+            category: 'Prénoms féminins sans le e final',
+            items: ['Clair', 'Mari', 'Jasmin', 'Colin'],
+            difficulty: 4,
+        }
+    ]
+},
+{
+    puzzle_name: '9 mars 2026 - On reste en pyjama',
+	puzzle_date: new Date('2026-03-09'),
+    groups: [
+        {
+            category: 'Ivre',
+            items: ['Rond', 'Torché', 'Gris', 'Saoul'],
+            difficulty: 1,
+        },
+        {
+            category: 'Bien fait',
+            items: ['Carré', 'Solide', 'Propre', 'Joli'],
+            difficulty: 2,
+        },
+        {
+            category: 'Types de triangles',
+            items: ['Rectangle', 'Isocèle', 'Equilatéral', 'Quelconque'],
+            difficulty: 3,
+        },
+        {
+            category: 'Caractéristiques d\'un panneau de danger',
+            items: ['Triangle', 'Rouge', 'Point d\'exclamation', 'Clignotement'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '2 mars 2026 - Livres',
 	puzzle_date: new Date('2026-03-02'),
     groups: [
