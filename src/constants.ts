@@ -24,6 +24,32 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '23 mars 2026 - Glace artisanale à la tuberculose',
+	puzzle_date: new Date('2026-03-23'),
+    groups: [
+        {
+            category: 'Vêtement de travail',
+            items: ['Bleu', 'Salopette', 'Uniforme', 'Blouse'],
+            difficulty: 1,
+        },
+        {
+            category: 'ça pique',
+            items: ['Rose', 'Epingle', 'Barbe', 'Seringue'],
+            difficulty: 2,
+        },
+        {
+            category: 'Communiste',
+            items: ['Rouge', 'Coco', 'Bolchevik', 'Trotskiste'],
+            difficulty: 3,
+        },
+        {
+            category: 'Rires',
+            items: ['Jaune', 'Fou', 'Sarcastique', 'Nerveux'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '16 mars 2026 - Ti\'punch',
 	puzzle_date: new Date('2026-03-16'),
     groups: [
