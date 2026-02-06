@@ -24,6 +24,58 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '6 avril 2026 - Ambulanciers licornes',
+	puzzle_date: new Date('2026-04-06'),
+    groups: [
+        {
+            category: 'Au self',
+            items: ['Plateau', 'Assiette', 'Carafe', 'Buffet'],
+            difficulty: 1,
+        },
+        {
+            category: 'Travaillent au collège',
+            items: ['Pion', 'Principal', 'Prof', 'Cuisinier'],
+            difficulty: 2,
+        },
+        {
+            category: 'Lettres, phonétiquement',
+            items: ['Dé', 'Hache', 'Aime', 'Cas'],
+            difficulty: 3,
+        },
+        {
+            category: 'Faux _',
+            items: ['Jeton', 'Frère', 'Ami', 'Départ'],
+            difficulty: 4,
+        }
+    ]
+},
+{
+    puzzle_name: '30 mars 2026 - Sauvegarde des blagues informatiques',
+	puzzle_date: new Date('2026-03-30'),
+    groups: [
+        {
+            category: 'Matières',
+            items: ['Verre', 'Vair', 'Ouate', 'Bois'],
+            difficulty: 1,
+        },
+        {
+            category: 'Prépositions de lieu',
+            items: ['Vers', 'Au', 'Sous', 'Dans'],
+            difficulty: 2,
+        },
+        {
+            category: 'La fin des saisons',
+            items: ['Ver', 'Temps', 'Té', 'Omne'],
+            difficulty: 3,
+        },
+        {
+            category: 'Feu _',
+            items: ['Vert', 'Follet', 'Stop', 'Electrique'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '23 mars 2026 - Glace artisanale à la tuberculose',
 	puzzle_date: new Date('2026-03-23'),
     groups: [
