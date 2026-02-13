@@ -24,6 +24,84 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '27 avril 2026 - Morses guides d\'aveugles',
+	puzzle_date: new Date('2026-04-27'),
+    groups: [
+        {
+            category: 'Ramolli',
+            items: ['Détendu', 'Lâche', 'Mou', 'Flasque'],
+            difficulty: 1,
+        },
+        {
+            category: 'Père _',
+            items: ['Tranquille', 'Noël', 'Fouettard', 'Castor'],
+            difficulty: 2,
+        },
+        {
+            category: 'Types de fauteuil',
+            items: ['Relax', 'Bergère', 'Club', 'Crapaud'],
+            difficulty: 3,
+        },
+        {
+            category: 'Parties du corps à l\'envers',
+            items: ['Zen', 'Nies', 'Nier', 'Srab'],
+            difficulty: 4,
+        }
+    ]
+},
+{
+    puzzle_name: '20 avril 2026 - Adjoint administratif du manchot',
+	puzzle_date: new Date('2026-04-20'),
+    groups: [
+        {
+            category: 'Visage',
+            items: ['Poire', 'Tronche', 'Face', 'Figure'],
+            difficulty: 1,
+        },
+        {
+            category: 'Activités de rivière',
+            items: ['Pêche', 'Baignade', 'Canoë', 'Canyoning'],
+            difficulty: 2,
+        },
+        {
+            category: 'Cris d\'animaux, phonétiquement',
+            items: ['Coing', 'Meut', 'Quoi', 'Baie'],
+            difficulty: 3,
+        },
+        {
+            category: 'Logos des principaux OS',
+            items: ['Pomme', 'Fenêtres', 'Pingouin', 'Robot'],
+            difficulty: 4,
+        }
+    ]
+},
+{
+    puzzle_name: '13 avril 2026 - Cirque au Scrabble',
+	puzzle_date: new Date('2026-04-13'),
+    groups: [
+        {
+            category: 'Extensions de fichier',
+            items: ['MP3', 'GIF', 'PDF', 'ZIP'],
+            difficulty: 1,
+        },
+        {
+            category: 'Mots en phonétique',
+            items: ['K7', 'DCD', 'OQP', 'DS'],
+            difficulty: 2,
+        },
+        {
+            category: 'Lettres qui se suivent',
+            items: ['CD', 'UV', 'PQ', 'VW'],
+            difficulty: 3,
+        },
+        {
+            category: 'Ont un menu',
+            items: ['DVD', 'McDo', 'PC', 'RU'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '6 avril 2026 - Ambulanciers licornes',
 	puzzle_date: new Date('2026-04-06'),
     groups: [
@@ -201,6 +279,32 @@ export const all_puzzles : PuzzleImport[] = [
         {
             category: 'Tom',
             items: ['Pouce', 'Sawyer', 'Tom', 'Major'],
+            difficulty: 4,
+        }
+    ]
+},
+{
+    puzzle_name: '19 février 2026 - Cerveau alternatif (par Machinois)',
+	puzzle_date: new Date('2026-02-19'),
+    groups: [
+        {
+            category: 'Locution latine',
+            items: ['Mens', 'Sana', 'Corpore', 'Sano'],
+            difficulty: 1,
+        },
+        {
+            category: 'Dans un troupeau d\'éléphants',
+            items: ['Défenses', 'Oreilles', 'Queues', 'Trompes'],
+            difficulty: 2,
+        },
+        {
+            category: 'Fais du foot',
+            items: ['Passes', 'Attaques', 'Joues', 'Marques'],
+            difficulty: 3,
+        },
+        {
+            category: 'BAN_',
+            items: ['Nies', 'Dage', 'Ane', 'Que'],
             difficulty: 4,
         }
     ]
