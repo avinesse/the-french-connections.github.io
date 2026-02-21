@@ -24,6 +24,58 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '11 mai 2026 - Lumière et infirmières',
+	puzzle_date: new Date('2026-05-11'),
+    groups: [
+        {
+            category: 'Eau en suspension',
+            items: ['Vapeur', 'Nuage', 'Brume', 'Gaz'],
+            difficulty: 1,
+        },
+        {
+            category: 'Dessert au chocolat',
+            items: ['Glace', 'Truffe', 'Fondant', 'Mousse'],
+            difficulty: 2,
+        },
+        {
+            category: 'Pistolet à _',
+            items: ['Eau', 'Colle', 'Air comprimé', 'Bille'],
+            difficulty: 3,
+        },
+        {
+            category: 'Derniers mots de classiques Disney',
+            items: ['Neige', 'Sirène', 'Lion', 'Bête'],
+            difficulty: 4,
+        }
+    ]
+},
+{
+    puzzle_name: '4 mai 2026 - Hygiène des mains de pompiers',
+	puzzle_date: new Date('2026-05-04'),
+    groups: [
+        {
+            category: 'Similaire',
+            items: ['Identique', 'Pareil', 'Semblable', 'Equivalent'],
+            difficulty: 1,
+        },
+        {
+            category: 'Travail d\'élève',
+            items: ['Copie', 'Devoir', 'Exposé', 'Projet'],
+            difficulty: 2,
+        },
+        {
+            category: 'Mots latins',
+            items: ['Idem', 'Recto', 'Ultimatum', 'Incognito'],
+            difficulty: 3,
+        },
+        {
+            category: 'Tout de _',
+            items: ['Même', 'Suite', 'Go', 'Travers'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '27 avril 2026 - Morses guides d\'aveugles',
 	puzzle_date: new Date('2026-04-27'),
     groups: [
@@ -33,18 +85,18 @@ export const all_puzzles : PuzzleImport[] = [
             difficulty: 1,
         },
         {
-            category: 'Père _',
-            items: ['Tranquille', 'Noël', 'Fouettard', 'Castor'],
+            category: 'Types de fauteuil',
+            items: ['Relax', 'Bergère', 'Club', 'Crapaud'],
             difficulty: 2,
         },
         {
-            category: 'Types de fauteuil',
-            items: ['Relax', 'Bergère', 'Club', 'Crapaud'],
+		    category: 'Père _',
+            items: ['Tranquille', 'Noël', 'Fouettard', 'Castor'],
             difficulty: 3,
         },
         {
             category: 'Parties du corps à l\'envers',
-            items: ['Zen', 'Nies', 'Nier', 'Srab'],
+            items: ['Zen', 'Nies', 'Nier', 'Siri'],
             difficulty: 4,
         }
     ]
