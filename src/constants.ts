@@ -24,6 +24,58 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '25 mai 2026 - Thyroïde de geek',
+	puzzle_date: new Date('2026-05-25'),
+    groups: [
+        {
+            category: 'Jaune',
+            items: ['Blond', 'Doré', 'Tournesol', 'Moutarde'],
+            difficulty: 1,
+        },
+        {
+            category: 'Fait avec de la farine',
+            items: ['Roux', 'Crêpe', 'Panure', 'Pain'],
+            difficulty: 2,
+        },
+        {
+            category: 'Ours _',
+            items: ['Brun', 'Blanc', 'Malais', 'A lunettes'],
+            difficulty: 3,
+        },
+        {
+            category: 'Commence par un nom d\'animal',
+            items: ['Chatain', 'Coquet', 'Pourri', 'Chevalier'],
+            difficulty: 4,
+        }
+    ]
+},
+{
+    puzzle_name: '18 mai 2026 - Musées migrateurs',
+	puzzle_date: new Date('2026-05-18'),
+    groups: [
+        {
+            category: 'Ecrit',
+            items: ['Texte', 'Message', 'Document', 'Papier'],
+            difficulty: 1,
+        },
+        {
+            category: 'Analogie',
+            items: ['Image', 'Illustration', 'Exemple', 'Métaphore'],
+            difficulty: 2,
+        },
+        {
+            category: 'Jeux _',
+            items: ['Vidéo', 'Olympiques', 'Interdits', 'Concours'],
+            difficulty: 3,
+        },
+        {
+            category: 'Marques de voitures avec une lettre en plus',
+            items: ['Audio', 'Fjord', 'Minai', 'Seant'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '11 mai 2026 - Lumière et infirmières',
 	puzzle_date: new Date('2026-05-11'),
     groups: [
