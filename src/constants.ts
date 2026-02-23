@@ -24,6 +24,58 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '8 juin 2026 - Océan d\'archives',
+	puzzle_date: new Date('2026-06-08'),
+    groups: [
+        {
+            category: 'Sert à boire',
+            items: ['Garçon', 'Serveur', 'Barman', 'Steward'],
+            difficulty: 1,
+        },
+        {
+            category: 'Membre de la communauté de l\'anneau',
+            items: ['Homme', 'Nain', 'Elfe', 'Hobbit'],
+            difficulty: 2,
+        },
+        {
+            category: 'Peuvent subir une discrimination',
+            items: ['Femme', 'Noir', 'Homosexuel', 'Sourd'],
+            difficulty: 3,
+        },
+        {
+            category: '_ de joie',
+            items: ['Fille', 'Feu', 'Cri', 'Fou'],
+            difficulty: 4,
+        }
+    ]
+},
+{
+    puzzle_name: '1 juin 2026 - Lait de bicyclette',
+	puzzle_date: new Date('2026-06-01'),
+    groups: [
+        {
+            category: 'Plan',
+            items: ['Patron', 'Maquette', 'Modèle', 'Schéma'],
+            difficulty: 1,
+        },
+        {
+            category: 'Du latin "caput", tête',
+            items: ['Chef', 'Cap', 'Occiput', 'Capital'],
+            difficulty: 2,
+        },
+        {
+            category: '>',
+            items: ['Supérieur', 'Guillemet', 'Droite', 'Suivant'],
+            difficulty: 3,
+        },
+        {
+            category: 'Homophones de verbes du 3e groupe',
+            items: ['Maître', 'Fer', 'Voire', 'Hêtre'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '25 mai 2026 - Thyroïde de geek',
 	puzzle_date: new Date('2026-05-25'),
     groups: [
