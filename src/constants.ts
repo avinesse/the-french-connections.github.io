@@ -24,6 +24,32 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '15 juin 2026 - Vent de sushis',
+	puzzle_date: new Date('2026-06-15'),
+    groups: [
+        {
+            category: 'Insectes',
+            items: ['Cousin', 'Ephémère', 'Gendarme', 'Monarque'],
+            difficulty: 1,
+        },
+        {
+            category: 'Femmes de la famille étendue',
+            items: ['Cousine', 'Nièce', 'Parente', 'Aïeule'],
+            difficulty: 2,
+        },
+        {
+            category: 'Figures d\'autorité féminines',
+            items: ['Mère', 'Déesse', 'Reine', 'Maîtresse'],
+            difficulty: 3,
+        },
+        {
+            category: 'Demi-_',
+            items: ['Soeur', 'Tour', 'Dieu', 'Lune'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '8 juin 2026 - Océan d\'archives',
 	puzzle_date: new Date('2026-06-08'),
     groups: [
