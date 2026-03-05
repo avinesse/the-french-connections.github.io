@@ -24,6 +24,32 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '22 juin 2026 - Alsace olympique',
+	puzzle_date: new Date('2026-06-22'),
+    groups: [
+        {
+            category: 'Festivités',
+            items: ['Soirée', 'Fête', 'Réception', 'Boum'],
+            difficulty: 1,
+        },
+        {
+            category: 'Expression de suprise désuète',
+            items: ['Matin', 'Mazette', 'Diantre', 'Diable'],
+            difficulty: 2,
+        },
+        {
+            category: 'Cause du tort',
+            items: ['Nuit', 'Gêne', 'Entrave', 'Dessert'],
+            difficulty: 3,
+        },
+        {
+            category: 'Mots associés à une lettre (J, T, B, D)',
+            items: ['Jour', 'Instant', 'Plan', 'Système'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '15 juin 2026 - Vent de sushis',
 	puzzle_date: new Date('2026-06-15'),
     groups: [
