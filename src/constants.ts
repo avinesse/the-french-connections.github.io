@@ -24,6 +24,58 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '6 juillet 2026 - Bons baisers de 1998',
+	puzzle_date: new Date('2026-07-06'),
+    groups: [
+        {
+            category: 'Gentil',
+            items: ['Chouette', 'Sympa', 'Agréable', 'Cool'],
+            difficulty: 1,
+        },
+        {
+            category: 'Se fait avoir',
+            items: ['Pigeon', 'Naïf', 'Dindon', 'Dupe'],
+            difficulty: 2,
+        },
+        {
+            category: 'Papes',
+            items: ['Pie', 'Innocent', 'Urbain', 'Benoît'],
+            difficulty: 3,
+        },
+        {
+            category: 'Jurons avec une lettre modifiée',
+            items: ['Merle', 'Pétain', 'Border', 'Bonnard'],
+            difficulty: 4,
+        }
+    ]
+},
+{
+    puzzle_name: '29 juin 2026 - Astéroïde B612',
+	puzzle_date: new Date('2026-06-29'),
+    groups: [
+        {
+            category: 'Etre non-humain',
+            items: ['Bête', 'Créature', 'Bestiole', 'Monstre'],
+            difficulty: 1,
+        },
+        {
+            category: 'Logé',
+            items: ['Demeuré', 'Vécu', 'Résidé', 'Habité'],
+            difficulty: 2,
+        },
+        {
+            category: 'Derniers mots des romans de Dostoïevski',
+            items: ['Idiot', 'Karamazov', 'Châtiment', 'Démons'],
+            difficulty: 3,
+        },
+        {
+            category: '_ heureux',
+            items: ['Imbécile', 'Mariage', 'Encore', 'Jours'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '22 juin 2026 - Alsace olympique',
 	puzzle_date: new Date('2026-06-22'),
     groups: [
