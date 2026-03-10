@@ -24,6 +24,32 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '13 juillet 2026 - Emoji serpent',
+	puzzle_date: new Date('2026-07-13'),
+    groups: [
+        {
+            category: 'Supprimé',
+            items: ['Sucré', 'Enlevé', 'Retiré', 'Pris'],
+            difficulty: 1,
+        },
+        {
+            category: 'Frustré',
+            items: ['Salé', 'Amer', 'Aigri', 'Déçu'],
+            difficulty: 2,
+        },
+        {
+            category: 'Formatages de texte',
+            items: ['Gras', 'Barré', 'Centré', 'Souligné'],
+            difficulty: 3,
+        },
+        {
+            category: 'Composés chimiques',
+            items: ['Acide', 'Alcool', 'Base', 'Méthyle'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '6 juillet 2026 - Bons baisers de 1998',
 	puzzle_date: new Date('2026-07-06'),
     groups: [
