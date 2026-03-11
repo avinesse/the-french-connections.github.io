@@ -275,7 +275,7 @@ export const App = () => {
         setIsOpenResults(true);
     };
 
-    const [isOpenRules, setIsOpenRules] = useState(true);
+    const [isOpenRules, setIsOpenRules] = useState(false);
     const [isOpenResults, setIsOpenResults] = useState(true);
 
   const [isOpenDropdown, setIsOpenDropdown] = useState(false);
@@ -489,6 +489,18 @@ export const App = () => {
 							_focus={{ bg: "gray.800", color: "white" }}
                         >
                             Copier les résultats
+                        </Button>
+						<Button
+                            colorScheme="black"
+                            variant="outline"
+                            rounded="full"
+                            borderWidth="2px"
+                            onClick={() => setIsOpenRules(true)}
+                            fontSize={["14px", "16px"]}
+                            h={["30px", "40px"]}
+							_hover={{ bg: "gray.300" }}
+                        >
+                            Règles du jeu
                         </Button>
 					</HStack>
                     {game.isFinished && <Modal isOpen={isOpenResults} onClose={handleCloseResults}>
