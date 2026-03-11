@@ -24,6 +24,32 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '20 juillet 2026 - Cousins et cousines',
+	puzzle_date: new Date('2026-07-20'),
+    groups: [
+        {
+            category: 'Fleurs',
+            items: ['Violette', 'Iris', 'Capucine', 'Véronique'],
+            difficulty: 1,
+        },
+        {
+            category: 'Comestible',
+            items: ['Madeleine', 'Clémentine', 'Colin', 'Charlotte'],
+            difficulty: 2,
+        },
+        {
+            category: 'Adjectifs',
+            items: ['Clément', 'Benoît', 'Céleste', 'Auguste'],
+            difficulty: 3,
+        },
+        {
+            category: 'Se lit comme deux lettres',
+            items: ['Hélène', 'Hervé', 'Théo', 'Emy'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '13 juillet 2026 - Emoji serpent',
 	puzzle_date: new Date('2026-07-13'),
     groups: [
