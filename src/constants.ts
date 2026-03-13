@@ -24,6 +24,32 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '27 juillet 2026 - Rouge à lèvres pour tigre',
+	puzzle_date: new Date('2026-07-27'),
+    groups: [
+        {
+            category: 'Morceaux de poulet',
+            items: ['Cuisse', 'Aile', 'Foie', 'Blanc'],
+            difficulty: 1,
+        },
+        {
+            category: 'Cuisson des oeufs',
+            items: ['Mollet', 'Dur', 'Cocotte', 'Parfait'],
+            difficulty: 2,
+        },
+        {
+            category: 'Associés à une demande en mariage',
+            items: ['Genou', 'Bague', 'Question', 'Surprise'],
+            difficulty: 3,
+        },
+        {
+            category: '_ marin',
+            items: ['Pied', 'Noeud', 'Pull', 'Sous'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '20 juillet 2026 - Cousins et cousines',
 	puzzle_date: new Date('2026-07-20'),
     groups: [
