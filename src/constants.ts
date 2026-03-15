@@ -24,6 +24,32 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '3 août 2026 - Chat capoeiriste',
+	puzzle_date: new Date('2026-08-03'),
+    groups: [
+        {
+            category: 'Gloubi-boulga',
+            items: ['Pâte', 'Bouillie', 'Mélange', 'Mixture'],
+            difficulty: 1,
+        },
+        {
+            category: 'Ingrédients du taboulé',
+            items: ['Semoule', 'Tomate', 'Menthe', 'Jus de citron'],
+            difficulty: 2,
+        },
+        {
+            category: 'A jeter sur les mariés',
+            items: ['Riz', 'Pétales de rose', 'Confettis', 'Bulles'],
+            difficulty: 3,
+        },
+        {
+            category: 'Insultes comestibles',
+            items: ['Patate', 'Nouille', 'Banane', 'Tarte'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '27 juillet 2026 - Rouge à lèvres pour tigre',
 	puzzle_date: new Date('2026-07-27'),
     groups: [
