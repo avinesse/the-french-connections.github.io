@@ -24,6 +24,32 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '10 août 2026 - Lion gaucher',
+	puzzle_date: new Date('2026-08-10'),
+    groups: [
+        {
+            category: 'En se pressant',
+            items: ['Quatre à quatre', 'Illico', 'Rapidement', 'Dare-dare'],
+            difficulty: 1,
+        },
+        {
+            category: 'Demi-mesure',
+            items: ['Entredeux', 'Milieu', 'Compromis', 'Intermédiaire'],
+            difficulty: 2,
+        },
+        {
+            category: 'Modèles Renault',
+            items: ['Supercinq', 'Espace', 'Talisman', 'Trafic'],
+            difficulty: 3,
+        },
+        {
+            category: 'Peuvent faire vomir',
+            items: ['Grand huit', 'Grossesse', 'Virus', 'Cuite'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '3 août 2026 - Chat capoeiriste',
 	puzzle_date: new Date('2026-08-03'),
     groups: [
