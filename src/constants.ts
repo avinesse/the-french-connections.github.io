@@ -24,6 +24,58 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '24 août 2026 - Chauve-souris topless',
+	puzzle_date: new Date('2026-08-24'),
+    groups: [
+        {
+            category: 'Chapeaux',
+            items: ['Bob', 'Fedora', 'Feutre', 'Sombrero'],
+            difficulty: 1,
+        },
+        {
+            category: 'Parties de batterie',
+            items: ['Tom', 'Cymbale', 'Charleston', 'Caisse'],
+            difficulty: 2,
+        },
+        {
+            category: 'Autour du bouton de réglage du son',
+            items: ['Max', 'Min', 'dB', 'Volume'],
+            difficulty: 3,
+        },
+        {
+            category: 'Débuts de jour de la semaine',
+            items: ['Sam', 'Vend', 'Jeu', 'Mer'],
+            difficulty: 4,
+        }
+    ]
+},
+{
+    puzzle_name: '17 août 2026 - Géocache d\'orang-outang',
+	puzzle_date: new Date('2026-08-17'),
+    groups: [
+        {
+            category: 'Progéniture',
+            items: ['Enfant', 'Descendant', 'Héritier', 'Rejeton'],
+            difficulty: 1,
+        },
+        {
+            category: 'Réfléchi',
+            items: ['Adulte', 'Mature', 'Sage', 'Responsable'],
+            difficulty: 2,
+        },
+        {
+            category: 'Piliers de l\Islam',
+            items: ['Jeûne', 'Aumône', 'Prière', 'Pélerinage'],
+            difficulty: 3,
+        },
+        {
+            category: 'Peuvent avoir des boutons',
+            items: ['Adolescent', 'Calculatrice', 'Chemise', 'Rosier'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '10 août 2026 - Lion gaucher',
 	puzzle_date: new Date('2026-08-10'),
     groups: [
