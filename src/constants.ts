@@ -24,6 +24,32 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '31 août 2026 - Overdose de blogs',
+	puzzle_date: new Date('2026-08-31'),
+    groups: [
+        {
+            category: 'Métaux',
+            items: ['Mercure', 'Argent', 'Or', 'Cuivre'],
+            difficulty: 1,
+        },
+        {
+            category: 'Barres chocolatées',
+            items: ['Mars', 'Lion', 'Balisto', 'Bounty'],
+            difficulty: 2,
+        },
+        {
+            category: 'Symbolisent la beauté',
+            items: ['Vénus', 'Apollon', 'Adonis', 'Ephèbe'],
+            difficulty: 3,
+        },
+        {
+            category: 'Ce que Sol peut vouloir dire',
+            items: ['Soleil', 'Terre', 'Note de musique', 'Pièce de monnaie'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '24 août 2026 - Chauve-souris topless',
 	puzzle_date: new Date('2026-08-24'),
     groups: [
