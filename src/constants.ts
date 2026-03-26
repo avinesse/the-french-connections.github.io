@@ -24,6 +24,32 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '21 septembre 2026 - Rhinocéros sans voiture',
+	puzzle_date: new Date('2026-09-21'),
+    groups: [
+        {
+            category: 'Sous-vêtements',
+            items: ['Boxer', 'Slip', 'Caleçon', 'Culotte'],
+            difficulty: 1,
+        },
+        {
+            category: 'Surnoms affectueux',
+            items: ['Bichon', 'Loulou', 'Cocotte', 'Minette'],
+            difficulty: 2,
+        },
+        {
+            category: 'On peut y trouver des lapins',
+            items: ['Terrier', 'Clapier', 'Cage', 'Casserole'],
+            difficulty: 3,
+        },
+        {
+            category: 'Commence par un objet sphérique',
+            items: ['Bouledogue', 'Ballerine', 'Globe-trotter', 'Billeterie'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '14 septembre 2026 - Pirate psychomoteur',
 	puzzle_date: new Date('2026-09-14'),
     groups: [
