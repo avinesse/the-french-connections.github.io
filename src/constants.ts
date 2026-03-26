@@ -24,6 +24,58 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '14 septembre 2026 - Pirate psychomoteur',
+	puzzle_date: new Date('2026-09-14'),
+    groups: [
+        {
+            category: 'Pour brancher quelque chose',
+            items: ['Port', 'Prise', 'Câble', 'Adaptateur'],
+            difficulty: 1,
+        },
+        {
+            category: 'Os',
+            items: ['Côte', 'Etrier', 'Carpe', 'Crâne'],
+            difficulty: 2,
+        },
+        {
+            category: 'Robes de chevaux',
+            items: ['Baie', 'Souris', 'Pie', 'Noire'],
+            difficulty: 3,
+        },
+        {
+            category: '_ horaire',
+            items: ['Plage', 'Fuseau', 'Salaire', 'Décalage'],
+            difficulty: 4,
+        }
+    ]
+},
+{
+    puzzle_name: '7 septembre 2026 - Peluche vautour',
+	puzzle_date: new Date('2026-09-07'),
+    groups: [
+        {
+            category: 'Donnant à manger',
+            items: ['Restaurant', 'Sustentant', 'Nourrissant', 'Alimentant'],
+            difficulty: 1,
+        },
+        {
+            category: 'Restaurants avec un seul type de nourriture',
+            items: ['Pizzeria', 'Crêperie', 'Friterie', 'Bar à sushis'],
+            difficulty: 2,
+        },
+        {
+            category: 'Bagage',
+            items: ['Cantine', 'Coffre', 'Malle', 'Valise'],
+            difficulty: 3,
+        },
+        {
+            category: '_ de jeunesse',
+            items: ['Auberge', 'Amour', 'Erreur', 'Souvenirs'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '31 août 2026 - Overdose de blogs',
 	puzzle_date: new Date('2026-08-31'),
     groups: [
