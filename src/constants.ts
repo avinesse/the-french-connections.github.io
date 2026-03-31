@@ -24,6 +24,32 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '28 septembre 2026 - Rhinocéros sans voiture',
+	puzzle_date: new Date('2026-09-28'),
+    groups: [
+        {
+            category: 'Autour du cou',
+            items: ['Boa', 'Cravate', 'Médaille', 'Col'],
+            difficulty: 1,
+        },
+        {
+            category: 'Langages de programmation',
+            items: ['Python', 'Go', 'Pascal', 'Java'],
+            difficulty: 2,
+        },
+        {
+            category: 'Personne fourbe',
+            items: ['Serpent', 'Judas', 'Félon', 'Traître'],
+            difficulty: 3,
+        },
+        {
+            category: 'Langue de _',
+            items: ['Vipère', 'Bois', 'Chat', 'Molière'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '21 septembre 2026 - Rhinocéros sans voiture',
 	puzzle_date: new Date('2026-09-21'),
     groups: [
