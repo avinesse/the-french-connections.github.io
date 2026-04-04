@@ -24,7 +24,33 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
-    puzzle_name: '28 septembre 2026 - Rhinocéros sans voiture',
+    puzzle_name: '5 octobre 2026 - Coming out du poulpe',
+	puzzle_date: new Date('2026-10-05'),
+    groups: [
+        {
+            category: 'Blagueur',
+            items: ['Taquin', 'Boute-en-train', 'Pince-sans-rire', 'Plaisantin'],
+            difficulty: 1,
+        },
+        {
+            category: 'Termine par une partie du corps',
+            items: ['Casse-tête', 'Sac à main', 'Trompe-l\'oeil', 'Pince-fesse'],
+            difficulty: 2,
+        },
+        {
+            category: 'Multicolores',
+            items: ['Rubik\'s Cube', 'Arc-en-ciel', 'M&Ms', 'Joker'],
+            difficulty: 3,
+        },
+        {
+            category: 'Ont des pièces',
+            items: ['Puzzle', 'Appartement', 'Porte-monnaie', 'Recueil de théâtre'],
+            difficulty: 4,
+        }
+    ]
+},
+{
+    puzzle_name: '28 septembre 2026 - Coeur de chocolat',
 	puzzle_date: new Date('2026-09-28'),
     groups: [
         {
