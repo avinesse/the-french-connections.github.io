@@ -24,6 +24,32 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '12 octobre 2026 - Arthrite routière',
+	puzzle_date: new Date('2026-10-12'),
+    groups: [
+        {
+            category: 'Apparence',
+            items: ['Air', 'Mine', 'Allure', 'Forme'],
+            difficulty: 1,
+        },
+        {
+            category: 'Sert à couper',
+            items: ['Eau', 'Atout', 'Couteau', 'Ciseaux'],
+            difficulty: 2,
+        },
+        {
+            category: 'Derniers mots des titres Harry Potter',
+            items: ['Feu', 'Azkaban', 'Secrets', 'Mort'],
+            difficulty: 3,
+        },
+        {
+            category: 'Pomme de _',
+            items: ['Terre', 'Rainette', 'Adam', 'Amour'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '5 octobre 2026 - Coming out du poulpe',
 	puzzle_date: new Date('2026-10-05'),
     groups: [
