@@ -65,6 +65,7 @@ type State = {
     alreadyGuessed: boolean,//Whether current guess was already guessed
     guessWasWrong: boolean,//Whether current guess was wrong
     isFinished: boolean,//Whether the game ended
+    choice: boolean,//Whether the user can choose mode
     emojiFromGuesses: string[],//Store the value of guesses as emojis (colored circles)
     current_name: string,//Current puzzle's name
 };
@@ -110,6 +111,7 @@ const methods = (state: State) => {
             state.alreadyGuessed = false;
             state.guessWasWrong = false;
             state.isFinished = false;
+            state.choice = false;
             state.emojiFromGuesses = [];
             state.current_name = newPuzzle.groups.puzzle_name;
         },
@@ -132,6 +134,14 @@ const methods = (state: State) => {
     deselectAll() {
       state.activeItems = [];
     },
+	
+	loseGame()  {
+	    state.complete = state.complete.concat(state.incomplete);
+        state.incomplete = [];
+        state.items = [];
+        state.isFinished = true;
+        this.getEmojiFromGuesses();
+	},
 
     submit() {
         const foundGroup = state.incomplete.map((group) => ({
@@ -189,11 +199,7 @@ const methods = (state: State) => {
         state.activeItems = [];
 
         if (state.mistakesRemaining === 0) {
-            state.complete = state.complete.concat(state.incomplete);
-            state.incomplete = [];
-            state.items = [];
-            state.isFinished = true;
-            this.getEmojiFromGuesses();
+			state.choice = true;
         }
     },
 
@@ -242,6 +248,7 @@ const useGame = (options: Options, difficulty: number, current_name: string) => 
         alreadyGuessed: false,
         guessWasWrong: false,
         isFinished: false,
+		choice: false,
         emojiFromGuesses: [],
         current_name: current_name,
     };
@@ -273,10 +280,12 @@ export const App = () => {
             groups: puzzleImport,
         });
         setIsOpenResults(true);
+        setIsOpenEndless(true);
     };
 
     const [isOpenRules, setIsOpenRules] = useState(false);
     const [isOpenResults, setIsOpenResults] = useState(true);
+    const [isOpenEndless, setIsOpenEndless] = useState(true);
 
   const [isOpenDropdown, setIsOpenDropdown] = useState(false);
   const selectedItemRef = useRef(null);
@@ -301,6 +310,16 @@ export const App = () => {
 
     const handleCloseRules = () => setIsOpenRules(false);
     const handleCloseResults = () => setIsOpenResults(false);
+    const handleCloseEndless = () => setIsOpenEndless(false);
+    const handleEndGame = () => {
+			game.loseGame();
+			setIsOpenEndless(false);
+			setIsOpenResults(true);
+	};
+	const handleEndlessMode = () => {
+		game.mistakesRemaining = 9999999;
+		setIsOpenEndless(false);
+	}
 
     const containsHtmlTags = (str) => /<[^>]*>/g.test(str);
 	
@@ -365,6 +384,41 @@ export const App = () => {
                     {game.alreadyGuessed && <Alert status='info' variant='left-accent' w={['344px', '438px', '528px', '624px']} animation={game.alreadyGuessed ? "fadeIn 0.5s ease" : "fadeOut 0.5s ease"}>
                         <AlertTitle align='center' fontSize={["xs", "s", "md"]}>D&eacute;j&agrave; devin&eacute;...</AlertTitle>
                     </Alert>}
+                    {game.choice && <Modal isOpen={isOpenEndless} onClose={handleCloseEndless}>
+                        <ModalOverlay />
+                        <ModalContent>
+                            <ModalHeader fontWeight='bold' fontSize="2xl">Perdu !</ModalHeader>
+                            <ModalCloseButton />
+                            <ModalBody>
+                                <Text mb='1rem' fontWeight='bold'>Continuer en mode sans fin ?</Text>
+								<Button
+								mr='1rem'
+                            colorScheme="black"
+                            variant="outline"
+                            rounded="full"
+                            borderWidth="2px"
+                            onClick={() => handleEndlessMode()}
+                            fontSize={["14px", "16px"]}
+                            h={["30px", "40px"]}
+                        >
+                            Continuer pour le plaisir 
+                        </Button>
+                        <Button
+                            colorScheme="black"
+                            variant="outline"
+                            rounded="full"
+                            borderWidth="2px"
+                            onClick={() => handleEndGame()}
+                            fontSize={["14px", "16px"]}
+                            h={["30px", "40px"]}
+                        >
+                            Voir les résultats
+                        </Button>
+
+                            </ModalBody>
+                        </ModalContent>
+                    </Modal>
+					}
                     <Modal isOpen={isOpenRules} onClose={handleCloseRules}>
                         <ModalOverlay />
                         <ModalContent>
