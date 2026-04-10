@@ -24,6 +24,32 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '19 octobre 2026 - Bégaiement',
+	puzzle_date: new Date('2026-10-19'),
+    groups: [
+        {
+            category: 'Petit nom pour son enfant',
+            items: ['Bébé', 'Bonhomme', 'Boutchou', 'Bichon'],
+            difficulty: 1,
+        },
+        {
+            category: 'Comestible',
+            items: ['Bleu', 'Baba', 'Bonbon', 'Beurre'],
+            difficulty: 2,
+        },
+        {
+            category: 'Catégorisent les gens',
+            items: ['Bobo', 'Babos', 'BCBG', 'Bourge'],
+            difficulty: 3,
+        },
+        {
+            category: 'Préfixes',
+            items: ['Bio', 'Bi', 'Bien', 'Biblio'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '12 octobre 2026 - Arthrite routière',
 	puzzle_date: new Date('2026-10-12'),
     groups: [
