@@ -24,6 +24,32 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '9 novembre 2026 - Stagiaire célibataire',
+	puzzle_date: new Date('2026-11-09'),
+    groups: [
+        {
+            category: 'Possède une lame',
+            items: ['Epée', 'Rasoir', 'Scie', 'Patin à glace'],
+            difficulty: 1,
+        },
+        {
+            category: 'Pour modifier son visage',
+            items: ['Masque', 'Maquillage', 'Moustache', 'Lunettes'],
+            difficulty: 2,
+        },
+        {
+            category: 'Se porte sur le dos',
+            items: ['Cape', 'Hotte du Père Noël', 'Bambin fatigué', 'Cartable'],
+            difficulty: 3,
+        },
+        {
+            category: '_ chinois',
+            items: ['Chapeau', 'Caractère', 'Portrait', 'Restaurant'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '2 novembre 2026 - Bon sens sans papier',
 	puzzle_date: new Date('2026-11-02'),
     groups: [
