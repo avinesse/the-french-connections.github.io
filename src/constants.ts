@@ -24,6 +24,84 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '30 novembre 2026 - Plan astral ou cadastral',
+	puzzle_date: new Date('2026-11-30'),
+    groups: [
+        {
+            category: 'Pour lire l\'avenir',
+            items: ['Pendule', 'Cartes', 'Boule de cristal', 'Main'],
+            difficulty: 1,
+        },
+        {
+            category: 'Nous tirent bruyamment du sommeil',
+            items: ['Réveil', 'Oiseau', 'Bébé', 'Travaux'],
+            difficulty: 2,
+        },
+        {
+            category: 'Entre la main et le bras',
+            items: ['Montre', 'Bracelet', 'Poignet', 'Bouton de manchette'],
+            difficulty: 3,
+        },
+        {
+            category: 'Termine par un synonyme de "habite"',
+            items: ['Horloge', 'Préside', 'Aquavit', 'Micro-crèche'],
+            difficulty: 4,
+        }
+    ]
+},
+{
+    puzzle_name: '23 novembre 2026 - Chicorée ou foie gras ?',
+	puzzle_date: new Date('2026-11-23'),
+    groups: [
+        {
+            category: 'Espérance',
+            items: ['Foi', 'Espoir', 'Croyance', 'Confiance'],
+            difficulty: 1,
+        },
+        {
+            category: 'Organes',
+            items: ['Foie', 'Rate', 'Testicule', 'Trompe'],
+            difficulty: 2,
+        },
+        {
+            category: 'Préfectures françaises',
+            items: ['Foix', 'Tulle', 'Moulins', 'Cayenne'],
+            difficulty: 3,
+        },
+        {
+            category: 'Ce que X peut voiloir dire',
+            items: ['Fois', 'Pornographie', 'Inconnue', 'Faux'],
+            difficulty: 4,
+        }
+    ]
+},
+{
+    puzzle_name: '16 novembre 2026 - Philosophie prématurée',
+	puzzle_date: new Date('2026-11-16'),
+    groups: [
+        {
+            category: 'Félins',
+            items: ['Lion', 'lynx', 'Ocelot', 'Chat'],
+            difficulty: 1,
+        },
+        {
+            category: 'Pour se raser',
+            items: ['Blaireau', 'Rasoir', 'Miroir', 'Tondeuse'],
+            difficulty: 2,
+        },
+        {
+            category: 'Peut être à lunettes',
+            items: ['Serpent', 'Schtroumpf', 'Myope', 'Ours'],
+            difficulty: 3,
+        },
+        {
+            category: '_ Royal',
+            items: ['Aigle', 'Ségolène', 'Kir', 'Palais'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '9 novembre 2026 - Stagiaire célibataire',
 	puzzle_date: new Date('2026-11-09'),
     groups: [
@@ -350,7 +428,7 @@ export const all_puzzles : PuzzleImport[] = [
             difficulty: 2,
         },
         {
-            category: 'Piliers de l\Islam',
+            category: 'Piliers de l\'Islam',
             items: ['Jeûne', 'Aumône', 'Prière', 'Pélerinage'],
             difficulty: 3,
         },
