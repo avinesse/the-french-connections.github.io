@@ -24,6 +24,32 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '7 décembre 2026 - La foire à la saucisse',
+	puzzle_date: new Date('2026-12-07'),
+    groups: [
+        {
+            category: 'Stratagème',
+            items: ['Truc', 'Astuce', 'Secret', 'Artifice'],
+            difficulty: 1,
+        },
+        {
+            category: 'Je sais plus qui, là',
+            items: ['Machin', 'L\'autre', 'Pierre, Paul ou Jacques', 'Untel'],
+            difficulty: 2,
+        },
+        {
+            category: 'Commence par une façon de dire "pénis"',
+            items: ['Bitonniau', 'Quenelle', 'Zizi Jeanmaire', 'Robinetterie'],
+            difficulty: 3,
+        },
+        {
+            category: 'Quelque _',
+            items: ['Chose', 'Part', 'Fois', 'Peu'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '30 novembre 2026 - Plan astral ou cadastral',
 	puzzle_date: new Date('2026-11-30'),
     groups: [
