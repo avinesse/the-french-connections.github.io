@@ -24,6 +24,58 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '21 décembre 2026 - Suivez cette voiture !',
+	puzzle_date: new Date('2026-12-21'),
+    groups: [
+        {
+            category: 'Se pressa',
+            items: ['Galopa', 'Sprinta', 'Courut', 'Bondit'],
+            difficulty: 1,
+        },
+        {
+            category: 'Jaunes',
+            items: ['Pikachu', 'Banane', 'Blé', 'Tournesol'],
+            difficulty: 2,
+        },
+        {
+            category: 'Termes d\'électrochimie',
+            items: ['Electrode', 'Conducteur', 'Solution', 'Oxydation'],
+            difficulty: 3,
+        },
+        {
+            category: 'Commence par un cri d\'animal',
+            items: ['Miaouss', 'Wwoofing', 'Meunier', 'Croatie'],
+            difficulty: 4,
+        }
+    ]
+},
+{
+    puzzle_name: '14 décembre 2026 - Ambassade du Moyen-Orient',
+	puzzle_date: new Date('2026-12-14'),
+    groups: [
+        {
+            category: 'Ne cherche pas le conflit',
+            items: ['Pacifique', 'Apaisant', 'Conciliant', 'Diplomate'],
+            difficulty: 1,
+        },
+        {
+            category: 'Ce que veut dire OTAN',
+            items: ['Atlantique', 'Nord', 'Organisation', 'Traité'],
+            difficulty: 2,
+        },
+        {
+            category: 'Associé avec les cowboys',
+            items: ['Indien', 'Ouest', 'Revolver', 'Vache'],
+            difficulty: 3,
+        },
+        {
+            category: 'Commence par une arme',
+            items: ['Arctique', 'Fusillade', 'Canoniser', 'Daguerréotype'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '7 décembre 2026 - La foire à la saucisse',
 	puzzle_date: new Date('2026-12-07'),
     groups: [
