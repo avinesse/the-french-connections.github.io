@@ -24,6 +24,84 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '11 janvier 2027 - Les yeux de la tête',
+	puzzle_date: new Date('2027-01-11'),
+    groups: [
+        {
+            category: 'Métaux',
+            items: ['Argent', 'Or', 'Bronze', 'Cuivre'],
+            difficulty: 1,
+        },
+        {
+            category: 'Sur une annonce immobilière',
+            items: ['Pièces', 'Surface', 'DPE', 'Prix'],
+            difficulty: 2,
+        },
+        {
+            category: 'Décrivent le sang',
+            items: ['Liquide', 'Salé', 'Rouge', 'Chaud'],
+            difficulty: 3,
+        },
+        {
+            category: 'Homophones de peintres',
+            items: ['Monnaie', 'Mathis', 'Jericho', 'Deux gars'],
+            difficulty: 4,
+        }
+    ]
+},
+{
+    puzzle_name: '4 janvier 2027 - Musique d\'ascenceur',
+	puzzle_date: new Date('2027-01-04'),
+    groups: [
+        {
+            category: 'Entre deux extrêmes',
+            items: ['Medium', 'Moyen', 'Tiède', 'Intermédiaire'],
+            difficulty: 1,
+        },
+        {
+            category: 'Classes de Donjons & Dragons',
+            items: ['Magicien', 'Paladin', 'Druide', 'Moine'],
+            difficulty: 2,
+        },
+        {
+            category: 'S\'allume dans la voiture',
+            items: ['Voyant', 'Clignotant', 'Radio', 'Cigare'],
+            difficulty: 3,
+        },
+        {
+            category: 'Se prononce comme deux nombres',
+            items: ['Devin', 'Vincent', '4x4', 'Indice'],
+            difficulty: 4,
+        }
+    ]
+},
+{
+    puzzle_name: '28 décembre 2026 - Around the world',
+	puzzle_date: new Date('2026-12-28'),
+    groups: [
+        {
+            category: 'Pays voisins de la France',
+            items: ['Espagne', 'Suisse', 'Belgique', 'Italie'],
+            difficulty: 1,
+        },
+        {
+            category: 'Iles',
+            items: ['Japon', 'Australie', 'Chypre', 'Cuba'],
+            difficulty: 2,
+        },
+        {
+            category: 'Derniers hôtes de la coupe du monde de football',
+            items: ['Etats-Unis', 'Qatar', 'Russie', 'Brésil'],
+            difficulty: 3,
+        },
+        {
+            category: 'Pays avec une seule voyelle',
+            items: ['Canada', 'Chili', 'Grèce', 'Kosovo'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '21 décembre 2026 - Suivez cette voiture !',
 	puzzle_date: new Date('2026-12-21'),
     groups: [
