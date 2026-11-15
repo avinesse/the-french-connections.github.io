@@ -24,6 +24,32 @@ import { PuzzleImport } from './App';
 
 export const all_puzzles : PuzzleImport[] = [
 {
+    puzzle_name: '18 janvier 2027 - Cher pays de mon enfance',
+	puzzle_date: new Date('2027-01-18'),
+    groups: [
+        {
+            category: 'Premier d\'une liste',
+            items: ['Do', 'Un', 'Pouce', 'A'],
+            difficulty: 1,
+        },
+        {
+            category: 'Oui, dans une autre langue',
+            items: ['Si', 'Yes', 'Hai', 'Da'],
+            difficulty: 2,
+        },
+        {
+            category: 'Ile de _',
+            items: ['Ré', 'Man', 'France', 'Sein'],
+            difficulty: 3,
+        },
+        {
+            category: 'Homophones de poissons',
+            items: ['Sol', 'Barre', 'Ton', 'Pli'],
+            difficulty: 4,
+        }
+    ]
+},
+{
     puzzle_name: '11 janvier 2027 - Les yeux de la tête',
 	puzzle_date: new Date('2027-01-11'),
     groups: [
